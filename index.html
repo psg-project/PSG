@@ -15,6 +15,9 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
@@ -35,38 +38,79 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav" id="t">
-                            <li><a href="#home">Inicion</a></li>
-                            <li><a href="#about">PSG</a></li>
-                            <li><a href="#team">Equipo</a></li>
-                            <li><a href="login.php">Login</a></li>
+                            <li><a class="home" href="#home">Inicio</a></li>
+                            <li><a class="smooth" href="#about-us">PSG</a></li>
+                            <li><a class="smooth" href="#team">Equipo</a></li>
+                            <li><a class="smooth" href="#contact-us">Contacto</a></li>
+                            <li><a class="smooth" href="login.php">Login</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
-    <section class="container">
+    <section id="about-us" class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Programa de Seguimiento a Graduados (PSG)</h1>
+                <h1 class="text-center">Programa de Seguimiento a Graduados</h1>
             </div>
             <div class="col-md-4">
-                <h2>Misión</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <h2 class="text-center">Misión</h2>
+                <p class="text-center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             </div>
             <div class="col-md-4">
-                <h2>Visión</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <h2 class="text-center">Visión</h2>
+                <p class="text-center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             </div>
             <div class="col-md-4">
-                <h2>Objetivos</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <h2 class="text-center">Objetivos</h2>
+                <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             </div>
         </div>
-    </section><!-- /container -->
+    </section>
+
+    <section id="team" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">Equipo</h3>
+            </div>
+            <div class="col-md-4">
+                <p class="text-center"><img src="img/mujer1.png" alt="" class="team-member"/></p>
+                <h3 class="text-center">Talía Flores</h3>
+                <p class="text-center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-center"><img src="img/mujer2.jpg" alt="" class="team-member"/></p>
+                <h3 class="text-center">Alda Castro</h3>
+                <p class="text-center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-center"><img src="img/mujer3.jpg" alt="" class="team-member"/></p>
+                <h3 class="text-center">Blanca Traña</h3>
+                <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">Contacto</h3>
+
+                <div class="col-md-6 col-md-offset-3">
+                    <form action="" class="center-block" method="post">
+                        <input type="text"  class="form-control form-element" name="name"  placeholder="Nombre completo" required />
+                        <input type="email" class="form-control form-element" name="email" placeholder="Email" required />
+                        <input type="text"  class="form-control form-element" name="subject" placeholder="Asunto" required />
+                        <textarea name="message" cols="30" class="form-control form-element" rows="10" placeholder="Mensaje" required></textarea>
+                        <p class="text-center">
+                            <button class="form-element form-btn">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container">

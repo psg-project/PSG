@@ -4,24 +4,56 @@
    		Franco Salas Medina
 ========================================================================== */
 
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
 body {
+	background-color: #fff;
     padding-top: 50px;
-    padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
+p, span {
+	color: #999;
 }
 
 
+/* Contact us */
+.form-element::-webkit-input-placeholder {
+   color: #999;
+}
+.form-element:-moz-placeholder { /* Firefox 18- */
+   color: #999;
+}
+.form-element::-moz-placeholder {  /* Firefox 19+ */
+   color: #999;
+}
+.form-element:-ms-input-placeholder {
+   color: #999;
+}
 
+.form-element {
+	border-radius: 4px;
+	border: 2px solid  #303030;
+	margin: 15px 0;
+}
 
+.form-btn {
+	background-color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0;
+	padding: 10px 40px;
+	text-transform: uppercase;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer */
+footer {
+	background-color: #222;
+	color: #fff;
+	height: 200px;
+}
